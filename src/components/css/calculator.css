@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #323232;
+}
+
+.app {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 280px;
+  height: 420px;
+  background-color: rgb(19, 2, 2);
+  box-shadow:  4px 4px 2px #000,
+              -4px -4px 2px #111;
+  margin-top: 50px;
+  border-radius: 5px;
+  /* border: 2px solid #555; */
+}
+
+.container .calc {
+  width: 96%;
+  height: 20%;
+  margin: 10px 5px;
+  background-color: #000;
+  border-radius: 4px;
+  border: 1px solid #313131;
+}
+
+.container .calc input {
+  width: 100%;
+  height: 100%;
+  text-align: end;
+  padding: 5px 8px;
+  font-size: 25px;
+  outline: none;
+  border: none;
+  background-color: #1b1b1b;
+  font-weight: 500;
+  box-shadow:  4px 4px 2px #000,
+              -4px -4px 2px #111;
+  color: #f5f5f5;
+}
+
+.container .calc-btn {
+  margin: 10px 10px;
+}
+
+.container .calc-btn button {
+  width: 50px;
+  height: 50px;
+  margin: 5px 7px;
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  background: #000;
+  /* border-radius: 5px; */
+  box-shadow:  4px 4px 2px #000,
+             -4px -4px 2px #111;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+.container .calc-btn .btn-eqval {
+  width: 110px;
+}
+
+.container .action {
+  font-size: 25px !important;
+  color: #f5f5f5 !important;
+}
